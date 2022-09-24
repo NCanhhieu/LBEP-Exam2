@@ -22,18 +22,18 @@ int main () {
 	scanf("%f", &j);
 	scanf("%f", &k);
     if( ktsoam(i)) {
-		printf ("canh %f am nen khong hop le , khong phai la canh cua tam giac \n", i );}
+		printf ("error \n canh a = %f am nen khong hop le , khong phai la canh cua tam giac \n", i );}
 	if( ktsoam(j)) {
-		printf ("canh %f am nen khong hop le, khong phai la canh cua tam giac \n", j );}
+		printf ("error \n canh b = %f am nen khong hop le, khong phai la canh cua tam giac \n", j );}
 	if( ktsoam(k)) {
-		printf ("canh %f am nen khong hop le, khong phai la canh cua tam giac \n", k );}
+		printf ("error \n canh c = %f am nen khong hop le, khong phai la canh cua tam giac \n", k );}
 	if (ktsoam(i) == false && ktsoam(j)== false && ktsoam(k)== false){
 	   if (ktcanh(i,j,k)) { printf(" %f , %f , %f la canh cua tam giac \n", i, j ,k); 
     	printf(" dien tich tam giac la %lf \n" , dientich(i,j,k));
-    	} else { printf(" %f , %f , %f ko la canh cua tam giac \n", i, j ,k);
-		  if ( (i+j) <= k) { printf ("canh %f  khong hop le do lon hon tong 2 canh con lai \n",k);} 
-		  if ( (i+k) <= j) { printf ("canh %f  khong hop le do lon hon tong 2 canh con lai \n",j);} 
-		  if ( (k+j) <= i) { printf ("canh %f  khong hop le do lon hon tong 2 canh con lai \n",i);} 
+    	} else { printf("error \n %f , %f , %f ko la canh cua tam giac \n", i, j ,k);
+		  if ( (i+j) <= k) { printf ("canh c = %f  khong hop le do lon hon tong 2 canh con lai \n",k);} 
+		  if ( (i+k) <= j) { printf ("canh b = %f  khong hop le do lon hon tong 2 canh con lai \n",j);} 
+		  if ( (k+j) <= i) { printf ("canh a = %f  khong hop le do lon hon tong 2 canh con lai \n",i);} 
 		
 		}
     	printf ("\n");
