@@ -19,7 +19,7 @@ int main () {
     puts(name);   //print string
 	printf (" \n");
 	upperclass(name);       
-    printf (" viethoa: " );	
+    printf ("chuoi viet hoa: " );	
      puts(name);
 	printf (" \n");
 }
