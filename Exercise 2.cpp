@@ -12,7 +12,7 @@ void upperclass (char str[]) {   //ham viet hoa ky tu trong string
 
 int main () {
 
-	char name[100];
+	char name[10000];
     printf("Enter string: ");
     fgets(name, sizeof(name), stdin);  // read string
     printf("chuoi vua nhap: ");
