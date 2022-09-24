@@ -30,7 +30,7 @@ int main () {
 	if (ktsoam(i) == false && ktsoam(j)== false && ktsoam(k)== false){
 	   if (ktcanh(i,j,k)) { printf(" %f , %f , %f la canh cua tam giac \n", i, j ,k); 
     	printf(" dien tich tam giac la %lf \n" , dientich(i,j,k));
-    	} else { printf(" %d , %d , %d ko la canh cua tam giac \n", i, j ,k);
+    	} else { printf(" %f , %f , %f ko la canh cua tam giac \n", i, j ,k);
 		  if ( (i+j) <= k) { printf ("canh %f  khong hop le do nho hon tong 2 canh con lai \n",k);} 
 		  if ( (i+k) <= j) { printf ("canh %f  khong hop le do nho hon tong 2 canh con lai \n",j);} 
 		  if ( (k+j) <= i) { printf ("canh %f  khong hop le do nho hon tong 2 canh con lai \n",i);} 
