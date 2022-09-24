@@ -18,8 +18,11 @@ double dientich(float a, float b, float c){
 int main () {
     printf ("nhap lan luot cac canh cua tam giac a,b,c :  \n");
 	float i, j, k;
+	printf ("canh a: \n");
 	scanf("%f", &i);
+	printf ("canh b: \n");
 	scanf("%f", &j);
+	printf ("canh c: \n");
 	scanf("%f", &k);
     if( ktsoam(i)) {
 		printf ("error \n canh a = %f am nen khong hop le , khong phai la canh cua tam giac \n", i );}
